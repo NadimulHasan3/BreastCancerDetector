@@ -1,8 +1,8 @@
-Breast Cancer Prediction: Image Segmentation and Classification with Deep Learning
-📋 Project Overview
+# Breast Cancer Prediction: Image Segmentation and Classification with Deep Learning
+📋 ## Project Overview
 This project develops a deep learning pipeline for breast cancer detection using ultrasound images. By integrating UNet-based segmentation with EfficientNetB3 classification, we significantly improve diagnostic accuracy from 42.01% to 86.39%. The system highlights tumor regions to assist classification and includes a web application for practical use.
 
-🎯 Objectives
+🎯 ## Objectives
 Implement UNet for accurate tumor segmentation in breast ultrasound images
 
 Train EfficientNetB3 models to classify images as benign, malignant, or normal
@@ -11,7 +11,7 @@ Evaluate the impact of segmentation on classification performance
 
 Develop a web application for practical clinical use
 
-📊 Dataset
+📊 ## Dataset
 We used the Breast Ultrasound Images Dataset from Kaggle, which contains:
 
 780 grayscale ultrasound images
@@ -20,7 +20,7 @@ Three classes: Benign (437), Malignant (210), Normal (133)
 
 Expert-annotated ground truth segmentation masks
 
-⚙️ Methodology
+⚙️ ## Methodology
 1. Data Preparation
 Applied data augmentation (rotation, shear, flipping) to address class imbalance
 
@@ -45,7 +45,7 @@ Retrained EfficientNetB3 on segmented images
 
 Boosted classification accuracy to 86.39%
 
-📈 Results
+📈 ## Results
 Baseline Model Performance (Raw Images)
 Overall accuracy: 42.01%
 
@@ -64,7 +64,7 @@ Benign: 0.97 precision, 0.97 recall
 
 Malignant: 0.83 precision, 0.79 recall
 
-🚀 Implementation
+🚀 ## Implementation
 The project includes a Flask-based web application that:
 
 Allows users to upload ultrasound images
